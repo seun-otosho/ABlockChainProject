@@ -57,7 +57,7 @@ def main():
     blockchain = BlockChain()
     database = ["Hello World!", "GM", "Hiya!", "sweet Dreams!"]
     num = 0
-    
+
     for data in database:
         num+=1
         blockchain.mine(Block(data, num))
